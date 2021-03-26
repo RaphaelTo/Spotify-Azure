@@ -1,0 +1,29 @@
+{
+  "name": "spotify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:produc": "webpack && node dist/index.js",
+    "build": "webpack",
+    "start:dev": "NODE_ENV=development webpack --watch",
+    "run:dev": "NODE_ENV=development nodemon dist/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "twig": "^1.15.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-proposal-private-methods": "^7.13.0",
+    "@babel/plugin-transform-runtime": "^7.13.10",
+    "@babel/preset-env": "^7.13.12",
+    "babel-loader": "^8.2.2",
+    "dotenv-webpack": "^7.0.2",
+    "morgan": "^1.10.0",
+    "webpack": "^5.28.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-node-externals": "^2.5.2"
+  }
+}
