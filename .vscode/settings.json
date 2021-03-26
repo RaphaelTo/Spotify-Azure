@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/4eb971e3-20fe-45a4-9b02-0abfc78b2c4b/resourceGroups/spotifi/providers/Microsoft.Web/sites/spotifi",
+    "appService.deploySubpath": "."
+}

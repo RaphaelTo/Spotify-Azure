@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start:produc": "webpack && node dist/index.js",
+    "start": "webpack && node dist/index.js",
     "build": "webpack",
     "start:dev": "NODE_ENV=development webpack --watch",
     "run:dev": "NODE_ENV=development nodemon dist/index.js"
